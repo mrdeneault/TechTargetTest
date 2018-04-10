@@ -4,7 +4,6 @@ pipeline {
     docker {
       image 'maven:alpine'
     }
-    
   }
   stages {
     stage('Stage 1') {
