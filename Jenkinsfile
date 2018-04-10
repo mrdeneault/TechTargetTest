@@ -11,7 +11,7 @@ pipeline {
         sh 'mvn -v'
       }
     }
-     stage('Shared Lib') {
+     stage('SharedLibs') {
          steps {
              helloWorld("Jenkins")
          }
